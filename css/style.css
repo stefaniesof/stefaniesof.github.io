@@ -1,0 +1,56 @@
+body {
+  font-family: 'Avenir';
+  margin: 0;
+}
+
+.sidenav {
+  width: 20%;
+  position: fixed;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a,p {
+  text-decoration: none;
+  display: block;
+  padding: zz;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 25%; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.card {
+  width: 600px;
+  height: 240px;
+  line-height: 1.4;
+  display: block;
+  position: relative;
+}
+
+.card img{
+  float: left;
+  width: 240px;
+  height: 180px;
+  position: relative;
+  margin-right: 24px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #484848;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
