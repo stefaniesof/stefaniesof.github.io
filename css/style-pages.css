@@ -98,6 +98,7 @@ h1 {
 
 .image-two {
 	display: flex;
+	justify-content: flex-start;
 	max-width: 320px;
 	max-height: 400px;
 }
