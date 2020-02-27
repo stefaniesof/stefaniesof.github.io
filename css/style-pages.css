@@ -91,7 +91,7 @@ h1 {
 
 .image-page {
 	max-width: 720px;
-	margin-bottom: 24px;
+	margin-bottom: 32px;
 	margin-top: 8px;
 	align-content: left;
 }
@@ -104,6 +104,7 @@ h1 {
 }
 
 .image-two img {
+	image-orientation: from-image;
 	width: 100%;
 	height: auto;
 	padding: 0 24 0 24;
