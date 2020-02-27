@@ -64,7 +64,9 @@ h3 {
   width: 640px;
   position: relative;
   margin-bottom: 24px;
+  transition-duration: 0.3s;
 }
+
 
 .card-text {
   padding: 0 24 24 24;
@@ -83,4 +85,9 @@ h3 {
 .main a:hover .card-text h2 {
   color: #888888;
   display: block;
+
+}
+
+.main a:hover .card {
+  transform: scale(1.1);
 }
