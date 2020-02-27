@@ -127,9 +127,17 @@ h1 {
 
 .page-nav a {
 	text-decoration: none;
-	padding-right: 40px;
+	padding-right: 40px;x
 }
 
 .page-nav a:hover {
 	color: #888888;
+}
+
+.app {
+	width: 128px;
+	height: auto;
+	background-color: black;
+	padding: 8px 16px 8px 16px;
+	border-radius: 8px;
 }
