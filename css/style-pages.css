@@ -107,7 +107,7 @@ h1 {
 	image-orientation: from-image;
 	width: 100%;
 	height: auto;
-	padding: 0 24 0 24;
+	padding: 0 24 0 0;
 	margin-bottom: 24px;
 }
 
