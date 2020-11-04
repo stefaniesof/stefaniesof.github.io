@@ -1,0 +1,20 @@
+/* --------------------------------
+
+Generated using nucleoapp.com
+
+-------------------------------- */
+.icon {
+    display: inline-block;
+    background-image: url(../icon.svg);
+    background-repeat: no-repeat;
+}
+
+.icon.icon-left-arrow-left {
+    background-position: -0px 0px;
+    height: 12px;
+    width: 12px;
+}
+
+.icon.icon-left-arrow-left.icon-active {
+    background-position: -12px 0px;
+} 

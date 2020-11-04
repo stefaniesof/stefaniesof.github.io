@@ -1,94 +1,134 @@
+@font-face {
+    font-family: "Lato-regular";
+    src: url("../font/lato-regular.woff") format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato-semibold";
+    src: url("../font/lato-bold.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Lato-bold";
+    src: url("../font/lato-black.woff") format('woff');
+    font-weight: bolder;
+}
+
+html,body,blockquote,code,h1,h2,h3,h4,h5,h6,p,pre{margin:0;padding:0;}
+button,fieldset,form,input,legend,textarea,select{margin:0;padding:0}
+ul,li{list-style:none;margin:0;padding:0;}
+
 body {
-  font-family: 'Avenir';
-  margin: 0;
-}
-h1, h2, h3, h4, h5, h6, p {
-margin: 0; 
-padding-bottom: 8px; 
-color: #484848;
-}
-
-a {
-  color: #3B3B3B;
-}
-
-p {
-  font-family: MartelFont;
-  font-size: 14px;
-  letter-spacing: 0.2;
-}
-
-h3 {
-  font-family: MartelFont;
-  font-size: 18px;
-  letter-spacing: 0.2;
-}
-
-.sidenav {
-  width: 20%;
-  position: fixed;
-  overflow-x: hidden;
-  padding: 48 48 48 48;
-}
-
-.sidenav a,p {
-  text-decoration: none;
-  display: block;
-  line-height: 2;
-  
-}
-
-.sidenav a:hover {
-  color: #888888;
-}
-
-.contact {
-  text-decoration: underline;
-  font-weight: bold;
+  font-family: Lato, serif;
   padding-bottom: 40px;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #FCFBFA;
 }
 
-.main {
-  margin-left: 25%; /* Same width as the sidebar + left position in px */
-  padding: 48px 72px;
-  position: absolute;
-}
+h1  { font-family: Lato-semibold; font-size: 40px; line-height: 1; margin-bottom: 4px; color: #242424;}
+h2  { font-family: Lato-regular; font-weight: normal; font-size: 28px; line-height: 1; margin-bottom: 8px; color: #242424;}
+h3  { font-family: Lato-regular; font-weight: normal; font-size: 24px; line-height: 1.4; margin-bottom: 8px; color: rgba(0,0,0,.6);}
+h4  { font-family: Lato-semibold; font-size: 20px; line-height: 1.5; margin-bottom: 4px; text-decoration: none; color: #242424;}
+p,a { font-family: Lato-regular; font-weight: normal; font-size: 20px; line-height: 1.75; margin-bottom: 4px; text-decoration: none; color: rgba(0,0,0,.6);}
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.card {
-  display: flex;
-  width: 640px;
-  position: relative;
-  margin-bottom: 24px;
-  transition-duration: 0.3s;
-}
-
-
-.card-text {
-  padding: 0 24 24 24;
-  width: 340px;
-}
-
-.card-image {
-  width: 240px;
-  height: 180px;
-}
-
-.main a {
-  text-decoration: none;
-}
-
-.main a:hover .card-text h2 {
-  color: #888888;
+nav {
   display: block;
-
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding-top: 0; /* required */
+  z-index: 1;
 }
 
-.main a:hover .card {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
+.head-container {
+  display: inline-flex;
+  position: relative;
+  background-color: #FCFBFA;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px !important;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  float: right;
+}
+
+.main-container {
+	position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(160px, auto);
+}
+
+img {
+  width: 100%;
+}
+
+.work-card {
+  display: block;
+  position: relative;
+  background-color: none;
+}
+
+.work-card img:hover {
+	opacity: 0.8;
+}
+.work-card p,a {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #5B5B5B;
+}
+
+.projecthead-container{
+  width: 100%;
+  background-color: #FCFBFA;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.project-nav {
+  width: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+.project-nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+  margin-top: 16px;
+}
+
+.article {
+  padding-top: 20px;
+}
+
+.article img {
+  width: 100%;
+  z-index: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.article h4 {
+  margin-top: 40px;
 }
