@@ -4,7 +4,7 @@ button,fieldset,form,input,legend,textarea,select{margin:0;padding:0}
 ul,li{list-style:none;margin:0;padding:0;}
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", helvetica, sans-serif;
   padding-bottom: 40px;
   padding-left: 20%;
   padding-right: 20%;
@@ -12,11 +12,11 @@ body {
 }
 
 
-h1  { font-family: Lato; font-weight: bold;font-size: 40px; line-height: 1; margin-bottom: 4px; color: #242424;}
-h2  { font-family: Lato; font-weight: normal; font-size: 28px; line-height: 1; margin-bottom: 8px; color: #242424;}
-h3  { font-family: Lato; font-weight: normal; font-size: 24px; line-height: 1.4; margin-bottom: 8px; color: rgba(0,0,0,.6);}
-h4  { font-family: Lato; font-weight: bold;font-size: 20px; line-height: 1.5; margin-bottom: 4px; text-decoration: none; color: #242424;}
-p,a { font-family: Lato; font-weight: normal; font-size: 20px; line-height: 1.75; margin-bottom: 4px; text-decoration: none; color: rgba(0,0,0,.6);}
+h1  { font-weight: bold;font-size: 40px; line-height: 1; margin-bottom: 4px; color: #242424;}
+h2  { font-weight: normal; font-size: 28px; line-height: 1; margin-bottom: 8px; color: #242424;}
+h3  { font-weight: normal; font-size: 24px; line-height: 1.4; margin-bottom: 8px; color: rgba(0,0,0,.6);}
+h4  { font-weight: bold;font-size: 20px; line-height: 1.5; margin-bottom: 4px; text-decoration: none; color: #242424;}
+p,a { font-weight: normal; font-size: 20px; line-height: 1.75; margin-bottom: 4px; text-decoration: none; color: rgba(0,0,0,.6);}
 
 nav {
   display: block;
