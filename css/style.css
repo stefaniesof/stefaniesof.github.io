@@ -117,3 +117,9 @@ img {
 .article h4 {
   margin-top: 40px;
 }
+
+.threecolumn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
